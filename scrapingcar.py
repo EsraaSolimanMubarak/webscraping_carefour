@@ -7,7 +7,7 @@ from bs4 import BeautifulSoup
 import pandas as pd
 import time
 
-# إعداد المتصفح
+# set the browser
 options = Options()
 options.add_argument("--headless")  # بدون واجهة
 options.add_argument("--no-sandbox")
